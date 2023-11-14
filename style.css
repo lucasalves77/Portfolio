@@ -40,6 +40,58 @@ body{
   margin-top: 40px;
 }
 
+/*-----Servicos------*/
+
+.box{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.box-bloco-1,
+.box-bloco-2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.back{
+  background-color: #272F3A;
+  
+  height: auto;
+  padding: 30px;
+}
+
+.back i{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.back h1{
+  color: white;
+  margin-top: 20px;
+}
+
+.back p{
+  margin-top: 20px;
+  color: rgb(198, 199, 199);
+}
+
+.bloco-1,
+.bloco-4{
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.bloco-2,
+.bloco-3{
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+
+
+
 /*-----Portfolio-----*/
 
 .projetos{
